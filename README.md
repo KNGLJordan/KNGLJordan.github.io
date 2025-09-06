@@ -1,76 +1,49 @@
-Francesco Giordani
+# Francesco Giordani
+
 Welcome to my personal website! I'm a passionate AI researcher and software engineer currently pursuing my Master's in Artificial Intelligence at the University of Bologna.
-🎓 About Me
-I'm Francesco Giordani, an Italian computer scientist born on September 3rd, 2002. I recently completed my Bachelor's degree in Computer Engineering with highest honors (110/110 cum Laude) and am now pursuing advanced studies in Artificial Intelligence. I'm particularly interested in game theory, machine learning, and intelligent systems.
-Currently, I'm honored to be one of 20 scholarship recipients for the prestigious Scuola Ortogonale program by ELICSIR Foundation, a selective two-year program for talented students in computer science and related fields.
-📧 Contact Information
 
-Email: giordani.francesco2002@gmail.com
-Location: Bologna, Italy
+## 🚀 Quick Navigation
 
-🎯 Current Focus
+- [About Me](./about.md) - Learn more about my background and journey
+- [Education](./education.md) - Academic achievements and qualifications
+- [Projects](./projects.md) - Featured work and research projects
+- [Experience](./experience.md) - Professional and teaching experience
+- [Publications & Conferences](./conferences.md) - Academic activities and presentations
+- [Skills](./skills.md) - Technical competencies and tools
+- [Contact](./contact.md) - Get in touch with me
 
-🎓 Master's in Artificial Intelligence at University of Bologna (Current GPA: 29.88/30.0)
-🏆 Scuola Ortogonale Scholar at ELICSIR Foundation
-👨‍🏫 Teaching Assistant for Fundamentals of Computer Science course
-🤖 Developing AI agents for strategic board games
+## 🎯 Current Highlights
 
-🏆 Notable Achievements
-Academic Excellence
+🎓 **Master's in AI** at University of Bologna (GPA: 29.88/30.0)  
+🏆 **Scuola Ortogonale Scholar** - One of 20 selected nationwide  
+🤖 **AI Research** - Developing game-playing agents with advanced algorithms  
+👨‍🏫 **Teaching Assistant** - Sharing knowledge in computer science fundamentals
 
-Bachelor's Degree: 110/110 cum Laude in Computer Engineering
-High School: 100/100 in Scientific Studies
-Scuola Ortogonale Scholarship: Selected among top students nationwide
+## 🔥 Latest Projects
 
-International Recognition
+### 🐝 Hive AI Agent
+Advanced game-playing agent using both classical AI (Minimax) and modern approaches (Monte Carlo Tree Search + Neural Networks)
 
-Cornell, Maryland, Max Planck Pre-doctoral Research School 2025: Selected participant
-CyberChallenge.IT 2024: National cybersecurity training program participant
+### 🚗 Bologna Digital Twin
+Traffic analysis and prediction system for smart city applications
 
-🔬 Featured Projects
-🐝 Hive AI Agent (November 2024 - Present)
-Developing an intelligent agent to play the strategic board game Hive using two distinct approaches:
+[**View All Projects →**](./projects.md)
 
-Classical AI: Minimax algorithm with iterative deepening, alpha-beta pruning, and transposition tables
-Modern AI: Monte Carlo Tree Search with neural networks, inspired by DeepMind's AlphaGoZero
+## 🌟 Recent Achievements
 
-Technologies: C++, Python, VSCode, Git
-⚔️ Tablut AI Agent (September - November 2024)
-Created an AI agent for the ancient Scandinavian board game Tablut as an advanced project for Fundamentals of Artificial Intelligence course. Implemented game theory algorithms with custom heuristic evaluation functions.
-Technologies: C++, VSCode, Git
-🚗 Bologna Digital Twin - Traffic Analysis (March - July 2024)
-Bachelor's Thesis Project: Conducted comprehensive research on vehicular traffic patterns using Bologna's Digital Twin data. Developed statistical models and machine learning frameworks for traffic prediction and geomapping.
-Technologies: Python, Jupyter, Dremio, Grafana
-🏥 SOSpeed - Hospital Management Software (March - June 2024)
-Comprehensive software engineering project involving requirements analysis, system design, and prototype development for hospital management systems.
-Technologies: Java, Eclipse, Git
-💻 Technical Skills
-Programming Languages
+- **Selected** for Cornell-Maryland-Max Planck Pre-doctoral Research School 2025
+- **Graduated** with 110/110 cum Laude in Computer Engineering
+- **Awarded** prestigious Scuola Ortogonale scholarship
+- **Completed** CyberChallenge.IT cybersecurity training
 
-Advanced: C, Java, Python, SQL, HTML, XML, JavaScript
-Intermediate: C++, CSS, MiniZinc, MATLAB, Bash, Assembly
+## 📈 GitHub Stats
 
-Tools & Frameworks
+[![Francesco's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-Advanced: React
-Intermediate: Node.js, Docker, Wireshark, Burp Suite, Ghidra
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-🌍 International Experience
-Summer Schools & Conferences
+---
 
-CMMRS 2025 - Saarbrücken, Germany: Pre-doctoral research school with Cornell, UMD, and Max Planck
-BOOST '25 Bologna & Oropa: STEM summer schools with international faculty
-Il Futuro Annunciato 2025 - Venice: Computer science workshop with industry leaders
+*Last updated: September 2025*
 
-🎯 Professional Experience
-Teaching & Mentoring
-
-University Teaching Assistant (March 2025 - Present): Supporting Fundamentals of Computer Science course
-Private Tutor (September 2022 - Present): Mathematics, Physics, and general subjects tutoring
-
-🏅 Other Interests
-
-🩸 Community Service: Active blood donor with FIDAS
-⚽ Sports: 11 years of football, current basketball player, skiing enthusiast, occasional tennis
-👨‍🍳 Culinary Arts: Passionate about cooking, especially homemade pasta making
-🧮 Mathematics: Former Mathematics Olympiad participant
+**Quick Contact**: [giordani.francesco2002@gmail.com](mailto:giordani.francesco2002@gmail.com)
