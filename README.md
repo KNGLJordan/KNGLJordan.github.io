@@ -6,7 +6,6 @@ Currently, I'm honored to be one of 20 scholarship recipients for the prestigiou
 📧 Contact Information
 
 Email: giordani.francesco2002@gmail.com
-Phone: (+39) 3249272083
 Location: Bologna, Italy
 
 🎯 Current Focus
