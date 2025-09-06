@@ -2,15 +2,18 @@
 
 [← Back to Home](./README.md)
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🐝 Hive AI Agent
 **November 2024 - Present** | *Advanced AI Game Playing*
+[repo1](https://github.com/KNGLJordan/strhive-to-fly)
+[repo2](https://github.com/kristoji/Bees_Knees)
 
 ---
 
 ### ⚔️ Tablut AI Agent
 **September - November 2024** | *Game Theory & Heuristics*
+[repo](https://github.com/federico53/tulbaT)
 
 ---
 
@@ -23,5 +26,3 @@
 **March - June 2024** | *Software Engineering Project*
 
 ---
-
-[🎓 View My Education](./education.md) | [💼 See My Experience](./experience.md) | [🔗 GitHub Repository](https://github.com/YOUR_USERNAME)

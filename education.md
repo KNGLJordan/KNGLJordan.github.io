@@ -50,5 +50,3 @@
 - **Website**: [cyberchallenge.it](https://cyberchallenge.it/)
 
 ---
-
-[🚀 View My Projects](./projects.md)
