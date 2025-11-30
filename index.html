@@ -14,21 +14,44 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: #f0dfb6; /* creamy off-white */
+    background: #f3e4c1; /* creamy off-white */
     color: #001f4d; /* deep blue */
     scroll-behavior: smooth;
   }
+  header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #333;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
 
+  section {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+  }
   h1, h2 {
     margin-bottom: 1rem;
     color: #003366; /* a darker deep blue for headings */
   }
 
-  ul.skills li {
-    background: #caddf9; /* pale blue background for skill badges */
-    color: #001f4d;
+  p {
+    margin-bottom: 1.5rem;
   }
-
+  #about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
   .projects > div {
     background: #dce6f1; /* light blue background for project boxes */
     border-radius: 8px;
@@ -37,7 +60,6 @@
     transition: transform 0.2s;
     color: #001f4d;
   }
-
   .projects > div:hover {
     transform: scale(1.03);
     background: #003366;
@@ -52,10 +74,12 @@
   }
 
   footer {
+    text-align: center;
+    padding: 2rem 1rem;
     background-color: #003366;
     color: #f9f4e8;
+    font-size: 0.9rem;
   }
-
   a.contact-link {
     color: #00bcd4;
     text-decoration: none;
@@ -93,14 +117,54 @@
   <p>Masters student at University of Bologna in Artificial Intelligence. Passioned about everything is rational, as not AI.</p>
 </section>
 
+
+
 <section id="projects">
+
   <h2>Projects</h2>
+  
+  <div>
+    <h3>Approximate K-Nearest Neighbors Search <span style="font-weight:400; font-size:0.95em;">(Work in progress)</span></h3>
+    <p>Optimizing search efficiency by reducing computation time and the number of examined points through statistical and machine learning methods. Supervised by Prof. Ceccarello.<br>
+    <em>Oct 2025 – Present</em>
+    </p>
+  </div>
+  
+  <div>
+    <h3>Home Healthcare Routing and Scheduling Problem <span style="font-weight:400; font-size:0.95em;">(Work in progress)</span></h3>
+    <p>Improving state-of-the-art formulations using constraint programming, mixed integer programming, and foundation models. Supervised by Prof. Maniezzo.<br>
+    <em>Oct 2025 – Present</em>
+    </p>
+  </div>
+  
+  <div>
+    <h3>Hive AI Engine</h3>
+    <p>Developed two AI agents for the Hive board game using negamax with parallelism and MCTS with a GNN for policy and value prediction. Supervised by Dr. Norelli and Dr. Frigo.<br>
+    <em>Oct 2024 – Aug 2025</em>
+    </p>
+  </div>
+
   <div>
     <h3>The SAT Story: from Aristotle to SAT Solvers</h3>
     <p>Talk and article on the story of SATisfiability.
       <a href="The_SAT_Story_from_Aristotle_to_SAT_Solvers.pdf" target="_blank" rel="noopener">Download PDF</a>
     </p>
   </div>
+  
+  <div>
+    <h3>Tablut AI Agent</h3>
+    <p>Implemented an AI to play the Scandinavian board game Tablut using a Minimax-based heuristic approach.<br>
+    <em>Sep 2024 – Dec 2024</em>
+    </p>
+  </div>
+  
+  <div>
+    <h3>Analysis and Forecasting of Vehicular Traffic</h3>
+    <p>Processed traffic data using statistical estimation and machine learning regression techniques to generate geomaps. Bachelor thesis supervised by Prof. Bellavista.<br>
+    <em>Mar 2024 – Jul 2024</em>
+    </p>
+  </div>
+
 </section>
 
 <section id="contact">
