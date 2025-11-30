@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Your Name - Personal Website</title>
+<style>
+  /* Reset some default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #121212;
+    color: #eee;
+    scroll-behavior: smooth;
+  }
+  header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #333;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #00bcd4;
+  }
+  section {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+  }
+  h1, h2 {
+    margin-bottom: 1rem;
+    color: #00bcd4;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+  #about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  ul.skills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  ul.skills li {
+    background: #333;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #00bcd4;
+  }
+  .projects > div {
+    background: #222;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+  }
+  .projects > div:hover {
+    transform: scale(1.03);
+    background: #00bcd4;
+    color: #121212;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #1f1f1f;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  a.contact-link {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.contact-link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    ul.skills {
+      justify-content: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <img src="https://via.placeholder.com/150" alt="Your Photo" />
+  <h1>Your Name</h1>
+  <p>Graduate student in Computer Science at Cambridge University with a focus on NLP, optimization, and machine learning. Passionate about research, coding, and teaching.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>Python</li>
+    <li>GurobiPy</li>
+    <li>OR-Tools</li>
+    <li>Machine Learning</li>
+    <li>Natural Language Processing</li>
+    <li>Graph Neural Networks</li>
+    <li>LaTeX</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div>
+    <h3>Healthcare Scheduling Optimization</h3>
+    <p>Developed MILP models for efficient resource allocation using Gurobi, reducing waiting time and improving scheduling accuracy.</p>
+  </div>
+  <div>
+    <h3>Sexism Detection in Text</h3>
+    <p>Applied BiLSTM and roBERTa models for text classification to detect sexist content in online comments.</p>
+  </div>
+  <div>
+    <h3>Traffic Flow Forecasting</h3>
+    <p>Researched graph neural networks and algebraic topology methods for accurate traffic prediction on urban networks.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a></p>
+  <p>GitHub: <a href="https://github.com/KNGLJordan" target="_blank" rel="noopener" class="contact-link">github.com/KNGLJordan</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/yourprofile</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Your Name. All rights reserved.
+</footer>
+
+</body>
+</html>
