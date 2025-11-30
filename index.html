@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Your Name - Personal Website</title>
+<title>Francesco Giordani - Personal Website</title>
 <style>
   /* Reset some default styles */
   * {
@@ -14,85 +14,48 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: #121212;
-    color: #eee;
+    background: #f0dfb6; /* creamy off-white */
+    color: #001f4d; /* deep blue */
     scroll-behavior: smooth;
   }
-  header {
-    background-color: #1f1f1f;
-    padding: 1rem 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 2px solid #333;
-  }
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-  }
-  nav a {
-    color: #ccc;
-    text-decoration: none;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: color 0.3s;
-  }
-  nav a:hover {
-    color: #00bcd4;
-  }
-  section {
-    max-width: 900px;
-    margin: 4rem auto;
-    padding: 0 1rem;
-  }
+
   h1, h2 {
     margin-bottom: 1rem;
-    color: #00bcd4;
+    color: #003366; /* a darker deep blue for headings */
   }
-  p {
-    margin-bottom: 1.5rem;
-  }
-  #about img {
-    max-width: 150px;
-    border-radius: 50%;
-    display: block;
-    margin-bottom: 1rem;
-  }
-  ul.skills {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
+
   ul.skills li {
-    background: #333;
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #00bcd4;
+    background: #caddf9; /* pale blue background for skill badges */
+    color: #001f4d;
   }
+
   .projects > div {
-    background: #222;
+    background: #dce6f1; /* light blue background for project boxes */
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
     transition: transform 0.2s;
+    color: #001f4d;
   }
+
   .projects > div:hover {
     transform: scale(1.03);
-    background: #00bcd4;
-    color: #121212;
+    background: #003366;
+    color: #f9f4e8;
   }
+
+  nav a {
+    color: #003366;
+  }
+  nav a:hover {
+    color: #25478b;
+  }
+
   footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    background-color: #1f1f1f;
-    color: #777;
-    font-size: 0.9rem;
+    background-color: #003366;
+    color: #f9f4e8;
   }
+
   a.contact-link {
     color: #00bcd4;
     text-decoration: none;
@@ -125,37 +88,18 @@
 </header>
 
 <section id="about">
-  <img src="https://via.placeholder.com/150" alt="Your Photo" />
-  <h1>Your Name</h1>
-  <p>Graduate student in Computer Science at Cambridge University with a focus on NLP, optimization, and machine learning. Passionate about research, coding, and teaching.</p>
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-  <ul class="skills">
-    <li>Python</li>
-    <li>GurobiPy</li>
-    <li>OR-Tools</li>
-    <li>Machine Learning</li>
-    <li>Natural Language Processing</li>
-    <li>Graph Neural Networks</li>
-    <li>LaTeX</li>
-  </ul>
+  <img src="profile_pic.jpeg" alt="Francesco Giordani photo" />
+  <h1>Francesco Giordani</h1>
+  <p>Masters student at University of Bologna in Artificial Intelligence. Passioned about everything is rational, as not AI.</p>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
   <div>
-    <h3>Healthcare Scheduling Optimization</h3>
-    <p>Developed MILP models for efficient resource allocation using Gurobi, reducing waiting time and improving scheduling accuracy.</p>
-  </div>
-  <div>
-    <h3>Sexism Detection in Text</h3>
-    <p>Applied BiLSTM and roBERTa models for text classification to detect sexist content in online comments.</p>
-  </div>
-  <div>
-    <h3>Traffic Flow Forecasting</h3>
-    <p>Researched graph neural networks and algebraic topology methods for accurate traffic prediction on urban networks.</p>
+    <h3>The SAT Story: from Aristotle to SAT Solvers</h3>
+    <p>Talk and article on the story of SATisfiability.
+      <a href="The_SAT_Story_from_Aristotle_to_SAT_Solvers.pdf" target="_blank" rel="noopener">Download PDF</a>
+    </p>
   </div>
 </section>
 
